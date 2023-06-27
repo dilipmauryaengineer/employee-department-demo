@@ -62,7 +62,7 @@ public class EployeeServiceTest {
         Employee e1 = new Employee();
         e1.setId(random.nextLong());
 
-        Assertions.assertThrows(Exception.class, () -> employeeService.updateEmployee(e1));
+        Assertions.assertThrows(EmployeeNotFoundException.class, () -> employeeService.updateEmployee(e1));
     }
 
     @Test
