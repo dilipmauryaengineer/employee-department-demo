@@ -1,0 +1,271 @@
+{
+  "collection": {
+    "info": {
+      "_postman_id": "9c637071-b6b7-4338-8362-fbb174563463",
+      "name": "ED-Demo",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "updatedAt": "2023-06-27T18:18:09.000Z",
+      "uid": "2524486-9c637071-b6b7-4338-8362-fbb174563463"
+    },
+    "item": [
+      {
+        "name": "employee/update",
+        "id": "c17387ec-74bd-4431-876e-7a8b33e5f33c",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"id\": 99\n}"
+          },
+          "url": {
+            "raw": "http://localhost:8080/employeedepartmentdemo/employee/update",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "employeedepartmentdemo",
+              "employee",
+              "update"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "2524486-c17387ec-74bd-4431-876e-7a8b33e5f33c"
+      },
+      {
+        "name": "employee/get/11111",
+        "id": "0d2e1f9d-cc99-477e-a05b-479ff99de73b",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": ""
+          },
+          "url": {
+            "raw": "http://localhost:8080/employeedepartmentdemo/employee/get/11111",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "employeedepartmentdemo",
+              "employee",
+              "get",
+              "11111"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "2524486-0d2e1f9d-cc99-477e-a05b-479ff99de73b"
+      },
+      {
+        "name": "department/delete/1",
+        "id": "b413a916-39b7-4800-a56d-df45ee6f24c6",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "DELETE",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": ""
+          },
+          "url": {
+            "raw": "http://localhost:8080/employeedepartmentdemo/department/delete/1",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "employeedepartmentdemo",
+              "department",
+              "delete",
+              "1"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "2524486-b413a916-39b7-4800-a56d-df45ee6f24c6"
+      },
+      {
+        "name": "account/accountstats/all/total",
+        "id": "0acd872b-e9e2-42a7-ad20-9d963294afa7",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": ""
+          },
+          "url": {
+            "raw": "account/accountstats/all/total",
+            "host": [
+              "account"
+            ],
+            "path": [
+              "accountstats",
+              "all",
+              "total"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "2524486-0acd872b-e9e2-42a7-ad20-9d963294afa7"
+      },
+      {
+        "name": "account/accountstats/7686/total",
+        "id": "290d4307-7b32-42af-a342-a96958ffa9df",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": ""
+          },
+          "url": {
+            "raw": "http://localhost:8080/employeedepartmentdemo/account/accountstats/7686/total",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "employeedepartmentdemo",
+              "account",
+              "accountstats",
+              "7686",
+              "total"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "2524486-290d4307-7b32-42af-a342-a96958ffa9df"
+      },
+      {
+        "name": "account/accountstats/3/avg",
+        "id": "c2515412-98db-4246-868d-607d2bcfcd02",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": ""
+          },
+          "url": {
+            "raw": "http://localhost:8080/employeedepartmentdemo/account/accountstats/3/avg",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "employeedepartmentdemo",
+              "account",
+              "accountstats",
+              "3",
+              "avg"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "2524486-c2515412-98db-4246-868d-607d2bcfcd02"
+      },
+      {
+        "name": "account/accountstats/all/avg",
+        "id": "13ce1e59-005b-4d24-b8bc-a5b53b53cc12",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": ""
+          },
+          "url": {
+            "raw": "http://localhost:8080/employeedepartmentdemo/account/accountstats/all/avg",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "8080",
+            "path": [
+              "employeedepartmentdemo",
+              "account",
+              "accountstats",
+              "all",
+              "avg"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "2524486-13ce1e59-005b-4d24-b8bc-a5b53b53cc12"
+      }
+    ]
+  }
+}

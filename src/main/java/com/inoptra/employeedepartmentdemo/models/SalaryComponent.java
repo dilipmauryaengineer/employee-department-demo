@@ -6,10 +6,28 @@ package com.inoptra.employeedepartmentdemo.models;
  *  i.e. SalaryComponent_amount = baseSalary * factor;
  *  Actual salary can be calculated as sum of all SalaryComponent amounts.
  * */
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "salary_component")
 public class SalaryComponent {
+	@Id
+	@GeneratedValue (strategy = GenerationType.IDENTITY)
+	private Long id;
+
 	private String name;
 
 	private double factor;
+
+
+	//@JoinColumn(name="salary_id", nullable=false)
+	@ManyToOne
+	@JoinTable(name = "salary_salarycomponent",
+			inverseJoinColumns = { @JoinColumn(name = "salary_id", referencedColumnName = "id") },
+			joinColumns = { @JoinColumn(name = "salary_salarycomponentid", referencedColumnName = "id") }
+	)
+	private Salary salary;
 
 	public String getName() {
 		return name;

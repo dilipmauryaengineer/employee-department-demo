@@ -1,10 +1,12 @@
 spring:
   datasource:
     # url: "jdbc:h2:mem:testdb"   --- in memory
-    url: "jdbc:h2:file:/data/demo"   # file storage
+    url: "jdbc:h2:~/demo;"   # file storage
     driverClassName: org.h2.Driver
     username: sa
     password:
+  h2:
+    console.enabled: true
 
 jpa:
   show-sql: true

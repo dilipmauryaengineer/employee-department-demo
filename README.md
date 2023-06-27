@@ -60,3 +60,10 @@ _mvn clean install_
 _mvn clean test_
 
 ----
+
+
+### Solution
+
+1. The DB Schema along with DML for some test data is available in ed-demo.sql. It is recommended to run the SQL to setup tables and data.
+2. Run Tests to check status
+3. Postman collection for the APIs available postman-collection.json
